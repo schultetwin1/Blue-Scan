@@ -19,6 +19,14 @@
 		C914D06118EE7A4500DE9A88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C914D04918EE7A4500DE9A88 /* UIKit.framework */; };
 		C914D06918EE7A4500DE9A88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C914D06718EE7A4500DE9A88 /* InfoPlist.strings */; };
 		C914D06B18EE7A4500DE9A88 /* Blue_ScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C914D06A18EE7A4500DE9A88 /* Blue_ScanTests.m */; };
+		C914D07518EE7A5000DE9A88 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C914D07418EE7A5000DE9A88 /* CoreBluetooth.framework */; };
+		C914D07718EE7A7700DE9A88 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C914D07618EE7A7700DE9A88 /* main.storyboard */; };
+		C9DE6E2118F75D9300880DC0 /* SPQRBTLEPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE6E2018F75D9300880DC0 /* SPQRBTLEPeripheral.m */; };
+		C9DE6E2418F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE6E2318F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.m */; };
+		C9DE6E2618F77D2C00880DC0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DE6E2518F77D2C00880DC0 /* CoreLocation.framework */; };
+		C9DE6E3318F9D7C200880DC0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9DE6E3218F9D7C200880DC0 /* Settings.bundle */; };
+		C9DE6E3618F9E49300880DC0 /* SPQRKnownPeripherals.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE6E3518F9E49300880DC0 /* SPQRKnownPeripherals.m */; };
+		C9DE6E3818F9EA2A00880DC0 /* KnownPeripherals.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9DE6E3718F9EA2A00880DC0 /* KnownPeripherals.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,17 @@
 		C914D06618EE7A4500DE9A88 /* Blue ScanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blue ScanTests-Info.plist"; sourceTree = "<group>"; };
 		C914D06818EE7A4500DE9A88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C914D06A18EE7A4500DE9A88 /* Blue_ScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blue_ScanTests.m; sourceTree = "<group>"; };
+		C914D07418EE7A5000DE9A88 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C914D07618EE7A7700DE9A88 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		C9DE6E1F18F75D9300880DC0 /* SPQRBTLEPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPQRBTLEPeripheral.h; sourceTree = "<group>"; };
+		C9DE6E2018F75D9300880DC0 /* SPQRBTLEPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPQRBTLEPeripheral.m; sourceTree = "<group>"; };
+		C9DE6E2218F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPQRBTLEPeripheralsTableViewController.h; path = ../SPQRBTLEPeripheralsTableViewController.h; sourceTree = "<group>"; };
+		C9DE6E2318F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPQRBTLEPeripheralsTableViewController.m; path = ../SPQRBTLEPeripheralsTableViewController.m; sourceTree = "<group>"; };
+		C9DE6E2518F77D2C00880DC0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C9DE6E3218F9D7C200880DC0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		C9DE6E3418F9E49300880DC0 /* SPQRKnownPeripherals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPQRKnownPeripherals.h; sourceTree = "<group>"; };
+		C9DE6E3518F9E49300880DC0 /* SPQRKnownPeripherals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPQRKnownPeripherals.m; sourceTree = "<group>"; };
+		C9DE6E3718F9EA2A00880DC0 /* KnownPeripherals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KnownPeripherals.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DE6E2618F77D2C00880DC0 /* CoreLocation.framework in Frameworks */,
+				C914D07518EE7A5000DE9A88 /* CoreBluetooth.framework in Frameworks */,
 				C914D04818EE7A4500DE9A88 /* CoreGraphics.framework in Frameworks */,
 				C914D04A18EE7A4500DE9A88 /* UIKit.framework in Frameworks */,
 				C914D04618EE7A4500DE9A88 /* Foundation.framework in Frameworks */,
@@ -96,6 +117,8 @@
 		C914D04418EE7A4500DE9A88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9DE6E2518F77D2C00880DC0 /* CoreLocation.framework */,
+				C914D07418EE7A5000DE9A88 /* CoreBluetooth.framework */,
 				C914D04518EE7A4500DE9A88 /* Foundation.framework */,
 				C914D04718EE7A4500DE9A88 /* CoreGraphics.framework */,
 				C914D04918EE7A4500DE9A88 /* UIKit.framework */,
@@ -107,10 +130,19 @@
 		C914D04B18EE7A4500DE9A88 /* Blue Scan */ = {
 			isa = PBXGroup;
 			children = (
+				C9DE6E3218F9D7C200880DC0 /* Settings.bundle */,
+				C9DE6E2218F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.h */,
+				C9DE6E2318F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.m */,
+				C9DE6E3718F9EA2A00880DC0 /* KnownPeripherals.plist */,
 				C914D05418EE7A4500DE9A88 /* SPQRAppDelegate.h */,
 				C914D05518EE7A4500DE9A88 /* SPQRAppDelegate.m */,
 				C914D05718EE7A4500DE9A88 /* Images.xcassets */,
 				C914D04C18EE7A4500DE9A88 /* Supporting Files */,
+				C914D07618EE7A7700DE9A88 /* main.storyboard */,
+				C9DE6E1F18F75D9300880DC0 /* SPQRBTLEPeripheral.h */,
+				C9DE6E2018F75D9300880DC0 /* SPQRBTLEPeripheral.m */,
+				C9DE6E3418F9E49300880DC0 /* SPQRKnownPeripherals.h */,
+				C9DE6E3518F9E49300880DC0 /* SPQRKnownPeripherals.m */,
 			);
 			path = "Blue Scan";
 			sourceTree = "<group>";
@@ -192,6 +224,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = SPQR;
 				TargetAttributes = {
+					C914D04118EE7A4500DE9A88 = {
+						DevelopmentTeam = T8KZZH4KS6;
+					};
 					C914D05C18EE7A4500DE9A88 = {
 						TestTargetID = C914D04118EE7A4500DE9A88;
 					};
@@ -221,6 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C914D05018EE7A4500DE9A88 /* InfoPlist.strings in Resources */,
+				C9DE6E3318F9D7C200880DC0 /* Settings.bundle in Resources */,
+				C914D07718EE7A7700DE9A88 /* main.storyboard in Resources */,
+				C9DE6E3818F9EA2A00880DC0 /* KnownPeripherals.plist in Resources */,
 				C914D05818EE7A4500DE9A88 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DE6E2118F75D9300880DC0 /* SPQRBTLEPeripheral.m in Sources */,
 				C914D05618EE7A4500DE9A88 /* SPQRAppDelegate.m in Sources */,
+				C9DE6E2418F75E8200880DC0 /* SPQRBTLEPeripheralsTableViewController.m in Sources */,
+				C9DE6E3618F9E49300880DC0 /* SPQRKnownPeripherals.m in Sources */,
 				C914D05218EE7A4500DE9A88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,10 +399,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blue Scan/Blue Scan-Prefix.pch";
 				INFOPLIST_FILE = "Blue Scan/Blue Scan-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +415,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blue Scan/Blue Scan-Prefix.pch";
 				INFOPLIST_FILE = "Blue Scan/Blue Scan-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +485,7 @@
 				C914D07018EE7A4500DE9A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C914D07118EE7A4500DE9A88 /* Build configuration list for PBXNativeTarget "Blue ScanTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +494,7 @@
 				C914D07318EE7A4500DE9A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
